@@ -1,0 +1,16 @@
+//Number raised by n
+
+import java.util.Scanner;
+
+public class Main1 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		double num = scan.nextDouble();
+		double n   = scan.nextDouble();
+		RaiseByPowerN p = new RaiseByPowerN();
+		double res=p.Power(num,n);
+	}
+
+}

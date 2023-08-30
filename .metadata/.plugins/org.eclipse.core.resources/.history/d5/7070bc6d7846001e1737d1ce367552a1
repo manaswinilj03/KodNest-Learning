@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ArmstrongSeries 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int originalnumber=scan.nextInt();
+		checkArmstrong(originalnumber);
+	}
+	public static void checkArmstrong(int originalnumber) 
+	{
+		int remainder;
+		while(originalnumber!=0)
+		{
+			remainder=originalnumber%10;
+			double result= Math.pow(remainder,3);
+			originalnumber=originalnumber/10;
+		}
+		System.out.println(originalnumber);
+		
+	}
+
+}

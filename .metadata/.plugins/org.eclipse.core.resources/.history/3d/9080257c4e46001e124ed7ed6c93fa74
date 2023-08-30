@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main3 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		int num=scan.nextInt();
+		printDigit(num);
+		
+	}
+	public static void printDigit(int num) 
+	{
+		int count=num;
+		while(count==0)
+		{
+			System.out.println(count);
+			count++;
+		}
+		
+	}
+
+}

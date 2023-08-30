@@ -1,0 +1,23 @@
+package sumrelatedprograms;
+import java.util.Scanner;
+public class EvenNumbersSum 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=scan.nextInt();
+		
+	}	
+	public static void sumEven(int n)
+	{   
+		int sum=0;
+		for(int i=1;i<n;i++) 
+		{
+		sum=sum+(2*n);
+	    }
+		
+	}
+}
+
+

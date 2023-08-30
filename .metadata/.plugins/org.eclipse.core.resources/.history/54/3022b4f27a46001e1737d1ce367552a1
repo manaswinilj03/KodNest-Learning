@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class ArmstrongSeries 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num=scan.nextInt();
+		checkArmstrong(num);
+	}
+	
+	public static void checkArmstrong(int num) 
+	{
+		int remainder=0;
+		double result=0;
+		int temp=num;
+		while(num!=0)
+		{
+			remainder=temp%10;
+			result=Math.pow(remainder, 3);
+			temp=temp/10;
+			temp++;
+		}
+		if(result==num)
+		{
+			System.out.println("Armstrong number");
+		}
+		else
+		{
+			System.out.println("Not Armstrong number");
+		}
+		
+		
+	}
+		
+}
+
+
+	
+	
+	
+		

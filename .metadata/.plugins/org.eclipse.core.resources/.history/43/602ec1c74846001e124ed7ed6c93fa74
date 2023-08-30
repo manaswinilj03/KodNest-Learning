@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=scan.nextInt();
+		squareNumber(n);
+		int ans=squareNumber(n);
+	}
+	
+	public static int squareNumber(int n) 
+	{
+		int res=n*n;
+		return res;
+		
+	}
+		
+	
+
+}

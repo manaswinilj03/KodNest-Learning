@@ -1,0 +1,12 @@
+
+public class RaiseByPowerN 
+{
+	double Power(double num,double n) 
+	{
+		double result=Math.pow(num, n);
+	    return result;
+	    System.out.println(result);
+
+	}
+	
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Power 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		double base = scan.nextDouble();
+		double exponent = scan.nextDouble();
+		double result=Power(base,exponent);
+		System.out.println(result);
+	}
+	
+	public static double Power(double base,double exponent) 
+	{
+		double res=Math.pow(base, exponent);
+		return res;
+	}
+
+
+}

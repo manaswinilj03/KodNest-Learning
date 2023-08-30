@@ -1,0 +1,23 @@
+//Number raised by n
+
+import java.util.Scanner;
+
+public class Main1 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the numbers");
+		double num = scan.nextDouble();
+		double n   = scan.nextDouble();
+		double result=Power(num,n);
+	}
+	public static double Power(double num,double n) 
+	{
+		double res=Math.pow(num, n);
+		return res;
+		
+		
+	}
+
+}

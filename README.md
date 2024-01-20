@@ -1,3 +1,3 @@
 Learnings in KodNest
 <br>
-Author - Manaswini L J
+Author - Manaswini Lekkad Jairaj
